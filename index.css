@@ -1,0 +1,95 @@
+/* css reset starts */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Roboto";
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
+}
+
+button {
+  font: inherit;
+}
+@media screen and (max-width: 570px) {
+  .main-body {
+    background-image: none;
+  }
+  .login-form {
+    border-radius: 0;
+  }
+}
+
+/* -------------------------css reset ends------------------------------------------------------------- */
+body {
+  height: 100vh;
+  background-image: url("../bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.login-form {
+  width: 24.5em;
+  background-color: rgb(21, 103, 176);
+  padding: 1em;
+ border-radius:2em ;
+}
+
+.card-header {
+  margin-top:2em;
+  margin-left: 2em;
+  margin-right: 2em;
+
+}
+
+h1 {
+  font-size: 36px;
+  font-weight:700;
+}
+
+.form-input {
+  disply:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1.5em;
+
+
+}
+
+input {
+  padding:1em;
+  border-radius: 2em;
+  border: 1px solid black;
+}
+
+.actions {
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+button {
+  background-color: blueviolet;
+  padding: ;
+
+}
+
+a {
+}
